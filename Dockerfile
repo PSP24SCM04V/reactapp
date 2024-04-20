@@ -1,5 +1,5 @@
 # Build step #1: build the React front end
-FROM node:13.12.0-alpine
+FROM node:alpine
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 ENV PORT 3000
